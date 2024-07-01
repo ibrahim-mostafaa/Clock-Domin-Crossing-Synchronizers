@@ -48,8 +48,4 @@ pulse = 1'b0;
 @(negedge clkB); rst_n = 1'b1;  
 end
 
-
-
-
-
 endmodule 
