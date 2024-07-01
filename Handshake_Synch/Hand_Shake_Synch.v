@@ -31,5 +31,5 @@ assign q = n1 & (~Ack);
 endmodule 
 
 // instance:
-//  Hand_Shake_Synch inst_name (.clkA(), .clkB(clkB), .rst_n(), .pulse(), .q());  
+//  Hand_Shake_Synch inst_name (.clkA(clkA), .clkB(clkB), .rst_n(), .pulse(), .q());  
 
